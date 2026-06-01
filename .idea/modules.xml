@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/car_class.iml" filepath="$PROJECT_DIR$/.idea/car_class.iml" />
 =======
       <module fileurl="file://$PROJECT_DIR$/.idea/fan_class.iml" filepath="$PROJECT_DIR$/.idea/fan_class.iml" />
 >>>>>>> fc5a167149e94586531664f8b9bfb8f0fd8f0ef8
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/pet_class.iml" filepath="$PROJECT_DIR$/.idea/pet_class.iml" />
+>>>>>>> 40bec24 (Initial commit of Pet Class)
     </modules>
   </component>
 </project>

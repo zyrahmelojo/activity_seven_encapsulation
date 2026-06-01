@@ -2,10 +2,14 @@
 <project version="4">
   <component name="Black">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.14 (Long Exam Engineering Data Analysis)" />
 =======
     <option name="sdkName" value="Python 3.14" />
 >>>>>>> fc5a167149e94586531664f8b9bfb8f0fd8f0ef8
+=======
+    <option name="sdkName" value="Python 3.14" />
+>>>>>>> 40bec24 (Initial commit of Pet Class)
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14" project-jdk-type="Python SDK" />
 </project>

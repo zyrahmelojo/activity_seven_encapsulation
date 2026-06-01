@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Car:
     def __init__(self, year_model, make):
         self.__year_model = year_model
@@ -56,3 +57,36 @@ if __name__ == "__main__":
     print(f"🌀 Fan 1 → Speed: FAST | Radius: {fan1.get_radius()} | Color: {fan1.get_color().capitalize()} | Status: {'ON ✅' if fan1.is_on() else 'OFF ❌'}")
     print(f"🌀 Fan 2 → Speed: MEDIUM | Radius: {fan2.get_radius()} | Color: {fan2.get_color().capitalize()} | Status: {'ON ✅' if fan2.is_on() else 'OFF ❌'}")
 >>>>>>> fc5a167149e94586531664f8b9bfb8f0fd8f0ef8
+=======
+class Pet:
+    def __init__(self, name, animal_type, age):
+        self.__name = name
+        self.__animal_type = animal_type
+        self.__age = age
+
+    def set_name(self, name):
+        self.__name = name
+    def set_animal_type(self, animal_type):
+        self.__animal_type = animal_type
+    def set_age(self, age):
+        self.__age = age
+
+    def get_name(self):
+        return self.__name
+    def get_animal_type(self):
+        return self.__animal_type
+    def get_age(self):
+        return self.__age
+
+if __name__ == "__main__":
+    name = input("Enter your pet's name:")
+    animal_type = input("Enter your pet's animal type:")
+    age = int(input("Enter your pet's age:"))
+
+    my_pet = Pet(name, animal_type, age)
+
+    print ("\nPet Details:")
+    print ("Name:", my_pet.get_name())
+    print ("Type:", my_pet.get_animal_type())
+    print ("Age:", my_pet.get_age())
+>>>>>>> 40bec24 (Initial commit of Pet Class)
